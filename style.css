@@ -25,10 +25,12 @@ header h1{
 main img{
     margin: auto;
     display: block;
+    width: 100%;
 }
 
 main p{
-
+width: 95%;
+margin: auto;
 }
 
 p{
@@ -40,6 +42,10 @@ p{
 nav{
     border-top: 2px solid #777;
     border-bottom: 2px solid #777;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 .newspaper-container{
@@ -66,3 +72,4 @@ a{
     width: 43%;
     margin: auto;
 }
+
